@@ -9,10 +9,12 @@ export function fetchWeather(city) {
     const url = `${ROOT_URL}&q=${city},us`;
     //request returns a promise
     const request = axios.get(url);
+    console.log('Request:', request);
 
     return {
         type: FETCH_WEATHER,
-        //payload is an option property for acions that has additional data that describes this aciton
+        //payload is an option property for acions that has additional data that describes this action
+        //payload is returning a promise (which actually isn't data yet)
         payload: request
     };
 }
