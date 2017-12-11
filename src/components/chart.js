@@ -3,9 +3,7 @@ import { Sparklines, SparklinesLine, SparklinesReferenceLine } from "react-spark
 import _ from 'lodash';
 
 function average(data) {
-    const kelvin = (_.sum(data)/data.length);
-    const fahrenheit = _.round((kelvin - 273.15)*1.8) + 32;
-    return fahrenheit;
+    return _.round((_.sum(data)/data.length));
 }
 export default (props) => {
     return (
