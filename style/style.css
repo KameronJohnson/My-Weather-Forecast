@@ -1,3 +1,6 @@
+.title {
+    margin: 20px 0 0;
+}
 
 /* center chart tables */
 td, th {
@@ -13,6 +16,7 @@ svg {
     height: 150px;
 }
 
+/* google maps */
 td:first-of-type, td:first-of-type > div {
     height: 200px;
     width: 250px;
