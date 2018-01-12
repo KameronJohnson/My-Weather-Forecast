@@ -1,9 +1,14 @@
+// const path = require('path');
+// const webpack = require('webpack');
+// const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 module.exports = {
   entry: [
     './src/index.js'
   ],
   output: {
     path: __dirname,
+    // path: path.resolve('./build'),
     publicPath: '/',
     filename: 'bundle.js'
   },
@@ -22,5 +27,5 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     contentBase: './'
-  }
+  },
 };
