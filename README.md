@@ -4,6 +4,8 @@
 
 A 5 day weather forecasting app built with React / Redux using the OpenWeatherMap & GoogleMaps APIs.
 
+[Live Demo](https://my-weather-forecast.netlify.com/ "My Weather Forecast")
+
 ### Instructions:
 
 ```
